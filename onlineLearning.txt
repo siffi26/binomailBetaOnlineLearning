@@ -1,0 +1,17 @@
+Online learning
+
+Use online learning to learn the beta distribution of the parameter p (chance to see 1) of the coin tossing trails in batch.
+
+      INPUT:
+                  1. A file contains many lines of binary outcomes:
+                        0101010111011011010101
+                        0110101
+                        010110101101
+                        ...
+                  2. parameter a for the initial beta prior
+                  3. parameter b for the initial beta prior
+
+      OUTPUT:
+                  Print out the Binomial likelihood by MLE, Beta prior and posterior probability for each line.
+      FUNCTION:
+                  Use Beta-Binomial conjugation to perform online learning.
